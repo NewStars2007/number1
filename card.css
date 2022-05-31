@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#fff8ce, #ffe347);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 400px;
+    background: #f7f7f7;
+    border-radius: 16px;
+    box-shadow: 10px 15px 30px #9999;
+    display: flex;
+    transition: .8s;
+    overflow: hidden;
+}
+.card:hover{
+    width: 800px;
+}
+.card_image{
+    width: 350px;
+    height: 100%;
+    background: url("./brand_eyewear.jpg") no-repeat center/cover;
+}
+.card_text{
+    width: calc(100% - 350px);
+    height: 100%;
+    background: #333;
+    color: #ddd;
+    overflow: hidden;
+}
+.card_textBody{
+    padding: 20px;
+}
+.card_desc{
+    line-height: 1.5;
+    font-size: 18px;
+    padding-bottom: 22px;
+    transform: translateY(20px);
+    opacity: 0;
+}
+.card:hover .card_desc{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: .8s 1s;
+}
+.card_btn{
+    padding: 10px 25px;
+    border: 5px double gold;
+    background: transparent;
+    color: gold;
+    transform: translateY(20px);
+    opacity: 0;
+}
+.card:hover .card_btn{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: .8s 1.5s;
+}
+.card_title{
+    transform: translateY(20px);
+    opacity: 0;
+}
+.card:hover .card_title{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: .8s .5s;
+}
+.card_stars{
+    padding: 12px 0;
+    transform: translateY(20px);
+    opacity: 0;
+}
+.card:hover .card_stars{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: .8s .8s;
+}

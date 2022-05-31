@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+.box{
+    width: 350px;
+    height: 350px;
+    background-color: orangered;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: -20px -20px 0px 0px #555;
+}
+.box1{
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: -20px 20px 0px 0px #555;
+    position: relative;
+    position: 1;
+    z-index: 1;
+}
+.div2{
+    width: 40px;
+    height: 20px;
+    background-color: #555;
+    margin-left: -30px;
+    margin-top: -11px;
+    transform: rotate(90deg);
+}
+.img{
+    z-index: 2;
+    width: 270px;
+    height: 270px;
+    margin-top: -180px;
+    margin-left: 200px;
+    position: relative;
+    transform: rotate(10deg);
+    transition: 1s;
+}
+.h1{
+    font-size: 130px;
+    margin-top: -120px;
+    z-index: 1;
+    opacity: .5;
+    position: relative;
+    color: #999;
+}
+.hart{
+    color: #ddd;
+    margin-left: 30px;
+}
+.p{
+    color: #ddd;
+    margin-left: 30px;
+}
+.h3{
+    margin-left: 20px;
+    margin-top: -25px;
+    font-size: 22px;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+.basket{
+    margin-left: 22px;
+    margin-top: 9px;
+}
+.icon1{
+    margin-left: 20px;
+}
+.icon2{
+    margin-left: 40px;
+    margin-top: -18px;
+}
+.icon3{
+    margin-left: 60px;
+    margin-top: -18px;
+
+}
+.icon4{
+    margin-left: 80px;
+    margin-top: -18px;
+}
+.icon5{
+    margin-left: 100px;
+    color: #999;
+    margin-top: -18px;
+}
+.size{
+    margin-left: 20px;
+}
+.number{
+    margin-left: 20px;
+}
+.number_eight{
+    margin-left: 30px;
+}
+.number_night{
+    margin-left: 40px;
+}
+.number_ten{
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 50px;
+    margin-left: 50px;
+    color: #fff;
+}
+.number_umbir{
+    margin-left: 40px;
+}
+.color{
+    margin-left: 20px;
+
+}
+
+.red{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid red;      
+    margin-left: 20px;
+    position: relative;
+}
+.red::before{
+    content: '';
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 25px;
+    height: 25px;
+    background: red;
+    border-radius: 50%;
+}
+.green{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 90px;
+    margin-top: -35px;
+}
+.yellow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 140px;
+    margin-top: -30px;
+}
+.usd{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(13, 149, 13);
+    margin-left: 180px;
+    border-radius: 5px;
+    margin-top: -50px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.div{
+    margin-top: -25px;
+}
+.img2{
+    width: 250px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.img:hover{
+    transition: 1s;
+    transform: rotate(-75deg);
+}
+.yarim{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: orangered;
+    margin-left: 1010px;
+    margin-top: -500px;
+    transition: 1s;
+    transform: rotate(50%);
+
+}
+.yarim:hover{
+    margin-top: -600px;
+    transition: 1s;
+    transform: rotate(-75deg);
+}
+.icons:hover{
+    color: gold;
+}
+.icon5:hover{
+    color: gold;
+}
+.number_umbir:hover{
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 50px;
+    margin-left: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.usd:hover{
+    background: linear-gradient(orangered, orangered)
+
+}
+.a{
+    text-decoration: none;
+    color: #fff;
+}
+.a2{
+    text-decoration: none;
+    color: #fff;
+}
+.a3{
+    text-decoration: none;
+    color: #fff; 
+}
+.hover{
+    color: #fff;
+    margin-left: 500px;
+    text-decoration: none;
+}
